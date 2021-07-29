@@ -1,0 +1,152 @@
+2021-07-22T01:05:38+00:00 CRITICAL Uncaught Error: Call to a member function get_meta() on bool in C:\xampp\htdocs\zebrasolutions\wp-content\plugins\dokan-lite\includes\Order\Manager.php:380
+Stack trace:
+#0 C:\xampp\htdocs\zebrasolutions\wp-content\plugins\dokan-lite\includes\Order\Hooks.php(265): WeDevs\Dokan\Order\Manager->maybe_split_orders(0)
+#1 C:\xampp\htdocs\zebrasolutions\wp-includes\class-wp-hook.php(305): WeDevs\Dokan\Order\Hooks->split_vendor_orders(0)
+#2 C:\xampp\htdocs\zebrasolutions\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#3 C:\xampp\htdocs\zebrasolutions\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#4 C:\xampp\htdocs\zebrasolutions\wp-content\plugins\woocommerce\includes\class-wc-checkout.php(396): do_action('woocommerce_che...', 0, Array)
+#5 C:\xampp\htdocs\zebrasolutions\wp-content\plugins\woocommerce\includes\class-wc-checkout.php(1172): WC_Checkout->create_order(Array)
+#6 C:\xampp\htdocs\zebrasolutions\wp-content\plugins\woocommerce\includes\class-wc-ajax.php(466): WC_Checkout->process en C:\xampp\htdocs\zebrasolutions\wp-content\plugins\dokan-lite\includes\Order\Manager.php en la línea 380
+
+2021-07-22T01:20:02+00:00 CRITICAL Maximum execution time of 180 seconds exceeded en C:\xampp\htdocs\zebrasolutions\wp-includes\wp-db.php en la línea 2056
+
+2021-07-22T01:20:04+00:00 CRITICAL Maximum execution time of 180 seconds exceeded en C:\xampp\htdocs\zebrasolutions\wp-includes\wp-db.php en la línea 2056
+
+2021-07-22T01:20:12+00:00 CRITICAL Maximum execution time of 180 seconds exceeded en C:\xampp\htdocs\zebrasolutions\wp-includes\wp-db.php en la línea 2056
+
+2021-07-22T01:20:21+00:00 CRITICAL Maximum execution time of 180 seconds exceeded en C:\xampp\htdocs\zebrasolutions\wp-includes\wp-db.php en la línea 2056
+
+2021-07-22T01:21:29+00:00 CRITICAL Maximum execution time of 180 seconds exceeded en C:\xampp\htdocs\zebrasolutions\wp-includes\wp-db.php en la línea 2056
+
+2021-07-22T01:21:29+00:00 CRITICAL Maximum execution time of 180 seconds exceeded en C:\xampp\htdocs\zebrasolutions\wp-includes\wp-db.php en la línea 2056
+
+2021-07-22T01:21:42+00:00 CRITICAL Maximum execution time of 180 seconds exceeded en C:\xampp\htdocs\zebrasolutions\wp-includes\wp-db.php en la línea 2056
+
+2021-07-22T01:21:44+00:00 CRITICAL Maximum execution time of 180 seconds exceeded en C:\xampp\htdocs\zebrasolutions\wp-includes\wp-db.php en la línea 2056
+
+2021-07-22T01:21:53+00:00 CRITICAL Maximum execution time of 180 seconds exceeded en C:\xampp\htdocs\zebrasolutions\wp-includes\wp-db.php en la línea 2056
+
+2021-07-22T01:21:59+00:00 CRITICAL Maximum execution time of 180 seconds exceeded en C:\xampp\htdocs\zebrasolutions\wp-includes\wp-db.php en la línea 2056
+
+2021-07-22T01:22:07+00:00 CRITICAL Maximum execution time of 180 seconds exceeded en C:\xampp\htdocs\zebrasolutions\wp-includes\wp-db.php en la línea 2056
+
+2021-07-22T01:22:24+00:00 CRITICAL Maximum execution time of 180 seconds exceeded en C:\xampp\htdocs\zebrasolutions\wp-includes\wp-db.php en la línea 2056
+
+2021-07-22T01:29:21+00:00 CRITICAL Maximum execution time of 180 seconds exceeded en C:\xampp\htdocs\zebrasolutions\wp-includes\wp-db.php en la línea 2056
+
+2021-07-22T01:29:21+00:00 CRITICAL Maximum execution time of 180 seconds exceeded en C:\xampp\htdocs\zebrasolutions\wp-includes\wp-db.php en la línea 2056
+
+2021-07-22T01:29:22+00:00 CRITICAL Maximum execution time of 180 seconds exceeded en C:\xampp\htdocs\zebrasolutions\wp-includes\wp-db.php en la línea 2056
+
+2021-07-22T01:29:53+00:00 CRITICAL Maximum execution time of 180 seconds exceeded en C:\xampp\htdocs\zebrasolutions\wp-includes\wp-db.php en la línea 2056
+
+2021-07-22T01:30:14+00:00 CRITICAL Maximum execution time of 180 seconds exceeded en C:\xampp\htdocs\zebrasolutions\wp-content\plugins\woocommerce\includes\class-wc-regenerate-images-request.php en la línea 12
+
+2021-07-22T01:30:22+00:00 CRITICAL Maximum execution time of 180 seconds exceeded en C:\xampp\htdocs\zebrasolutions\wp-includes\wp-db.php en la línea 2056
+
+2021-07-22T01:30:36+00:00 CRITICAL Maximum execution time of 180 seconds exceeded en C:\xampp\htdocs\zebrasolutions\wp-includes\wp-db.php en la línea 2056
+
+2021-07-22T01:31:25+00:00 CRITICAL Maximum execution time of 180 seconds exceeded en C:\xampp\htdocs\zebrasolutions\wp-includes\wp-db.php en la línea 2056
+
+2021-07-22T01:31:41+00:00 CRITICAL Maximum execution time of 180 seconds exceeded en C:\xampp\htdocs\zebrasolutions\wp-includes\wp-db.php en la línea 2056
+
+2021-07-22T01:32:17+00:00 CRITICAL Maximum execution time of 180 seconds exceeded en C:\xampp\htdocs\zebrasolutions\wp-includes\wp-db.php en la línea 2056
+
+2021-07-22T01:32:31+00:00 CRITICAL Maximum execution time of 180 seconds exceeded en C:\xampp\htdocs\zebrasolutions\wp-includes\wp-db.php en la línea 2056
+
+2021-07-22T01:32:38+00:00 CRITICAL Maximum execution time of 180 seconds exceeded en C:\xampp\htdocs\zebrasolutions\wp-includes\wp-db.php en la línea 2056
+
+2021-07-22T01:32:39+00:00 CRITICAL Maximum execution time of 180 seconds exceeded en C:\xampp\htdocs\zebrasolutions\wp-includes\wp-db.php en la línea 2056
+
+2021-07-22T01:32:39+00:00 CRITICAL Maximum execution time of 180 seconds exceeded en C:\xampp\htdocs\zebrasolutions\wp-includes\wp-db.php en la línea 2056
+
+2021-07-22T01:32:39+00:00 CRITICAL Maximum execution time of 180 seconds exceeded en C:\xampp\htdocs\zebrasolutions\wp-includes\wp-db.php en la línea 2056
+
+2021-07-22T01:42:33+00:00 CRITICAL Uncaught Error: Class 'WP_Theme_JSON_Resolver' not found in C:\xampp\htdocs\zebrasolutions\wp-includes\script-loader.php:1530
+Stack trace:
+#0 C:\xampp\htdocs\zebrasolutions\wp-includes\class-wp-hook.php(303): wp_default_styles(Object(WP_Styles))
+#1 C:\xampp\htdocs\zebrasolutions\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#2 C:\xampp\htdocs\zebrasolutions\wp-includes\plugin.php(518): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\zebrasolutions\wp-includes\class.wp-styles.php(135): do_action_ref_array('wp_default_styl...', Array)
+#4 C:\xampp\htdocs\zebrasolutions\wp-includes\functions.wp-styles.php(24): WP_Styles->__construct()
+#5 C:\xampp\htdocs\zebrasolutions\wp-includes\functions.wp-styles.php(132): wp_styles()
+#6 C:\xampp\htdocs\zebrasolutions\wp-content\plugins\social-icons-widget-by-wpzoom\block\src\init.php(36): wp_register_style('wpzoom-social-i...', 'http://localhos...', Array, 1626910262)
+#7 C:\xampp\htdocs\zebrasolutions\wp-includes\class-wp-hook.php(303): wpzoom_social_icon en C:\xampp\htdocs\zebrasolutions\wp-includes\script-loader.php en la línea 1530
+
+2021-07-22T01:44:39+00:00 CRITICAL Uncaught Error: Class 'WP_Theme_JSON_Resolver' not found in C:\xampp\htdocs\zebrasolutions\wp-includes\script-loader.php:1530
+Stack trace:
+#0 C:\xampp\htdocs\zebrasolutions\wp-includes\class-wp-hook.php(303): wp_default_styles(Object(WP_Styles))
+#1 C:\xampp\htdocs\zebrasolutions\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#2 C:\xampp\htdocs\zebrasolutions\wp-includes\plugin.php(518): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\zebrasolutions\wp-includes\class.wp-styles.php(135): do_action_ref_array('wp_default_styl...', Array)
+#4 C:\xampp\htdocs\zebrasolutions\wp-includes\functions.wp-styles.php(24): WP_Styles->__construct()
+#5 C:\xampp\htdocs\zebrasolutions\wp-includes\functions.wp-styles.php(132): wp_styles()
+#6 C:\xampp\htdocs\zebrasolutions\wp-content\plugins\social-icons-widget-by-wpzoom\block\src\init.php(36): wp_register_style('wpzoom-social-i...', 'http://localhos...', Array, 1626910262)
+#7 C:\xampp\htdocs\zebrasolutions\wp-includes\class-wp-hook.php(303): wpzoom_social_icon en C:\xampp\htdocs\zebrasolutions\wp-includes\script-loader.php en la línea 1530
+
+2021-07-22T01:46:40+00:00 CRITICAL Uncaught Error: Class 'WP_Theme_JSON_Resolver' not found in C:\xampp\htdocs\zebrasolutions\wp-includes\script-loader.php:1530
+Stack trace:
+#0 C:\xampp\htdocs\zebrasolutions\wp-includes\class-wp-hook.php(303): wp_default_styles(Object(WP_Styles))
+#1 C:\xampp\htdocs\zebrasolutions\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#2 C:\xampp\htdocs\zebrasolutions\wp-includes\plugin.php(518): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\zebrasolutions\wp-includes\class.wp-styles.php(135): do_action_ref_array('wp_default_styl...', Array)
+#4 C:\xampp\htdocs\zebrasolutions\wp-includes\functions.wp-styles.php(24): WP_Styles->__construct()
+#5 C:\xampp\htdocs\zebrasolutions\wp-includes\functions.wp-styles.php(132): wp_styles()
+#6 C:\xampp\htdocs\zebrasolutions\wp-content\plugins\social-icons-widget-by-wpzoom\block\src\init.php(36): wp_register_style('wpzoom-social-i...', 'http://localhos...', Array, 1593712514)
+#7 C:\xampp\htdocs\zebrasolutions\wp-includes\class-wp-hook.php(303): wpzoom_social_icon en C:\xampp\htdocs\zebrasolutions\wp-includes\script-loader.php en la línea 1530
+
+2021-07-22T01:48:58+00:00 CRITICAL Uncaught Error: Class 'WP_Theme_JSON_Resolver' not found in C:\xampp\htdocs\zebrasolutions\wp-includes\script-loader.php:1530
+Stack trace:
+#0 C:\xampp\htdocs\zebrasolutions\wp-includes\class-wp-hook.php(303): wp_default_styles(Object(WP_Styles))
+#1 C:\xampp\htdocs\zebrasolutions\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#2 C:\xampp\htdocs\zebrasolutions\wp-includes\plugin.php(518): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\zebrasolutions\wp-includes\class.wp-styles.php(135): do_action_ref_array('wp_default_styl...', Array)
+#4 C:\xampp\htdocs\zebrasolutions\wp-includes\functions.wp-styles.php(24): WP_Styles->__construct()
+#5 C:\xampp\htdocs\zebrasolutions\wp-includes\functions.wp-styles.php(132): wp_styles()
+#6 C:\xampp\htdocs\zebrasolutions\wp-content\plugins\social-icons-widget-by-wpzoom\block\src\init.php(36): wp_register_style('wpzoom-social-i...', 'http://localhos...', Array, 1593712514)
+#7 C:\xampp\htdocs\zebrasolutions\wp-includes\class-wp-hook.php(303): wpzoom_social_icon en C:\xampp\htdocs\zebrasolutions\wp-includes\script-loader.php en la línea 1530
+
+2021-07-22T02:07:41+00:00 CRITICAL Uncaught Error: Call to a member function get_meta() on bool in C:\xampp\htdocs\zebrasolutions\wp-content\plugins\dokan-lite\includes\Order\Manager.php:380
+Stack trace:
+#0 C:\xampp\htdocs\zebrasolutions\wp-content\plugins\dokan-lite\includes\Order\Hooks.php(265): WeDevs\Dokan\Order\Manager->maybe_split_orders(0)
+#1 C:\xampp\htdocs\zebrasolutions\wp-includes\class-wp-hook.php(294): WeDevs\Dokan\Order\Hooks->split_vendor_orders(0)
+#2 C:\xampp\htdocs\zebrasolutions\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#3 C:\xampp\htdocs\zebrasolutions\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#4 C:\xampp\htdocs\zebrasolutions\wp-content\plugins\woocommerce\includes\class-wc-checkout.php(396): do_action('woocommerce_che...', 0, Array)
+#5 C:\xampp\htdocs\zebrasolutions\wp-content\plugins\woocommerce\includes\class-wc-checkout.php(1163): WC_Checkout->create_order(Array)
+#6 C:\xampp\htdocs\zebrasolutions\wp-content\plugins\woocommerce\includes\class-wc-ajax.php(466): WC_Checkout->process en C:\xampp\htdocs\zebrasolutions\wp-content\plugins\dokan-lite\includes\Order\Manager.php en la línea 380
+
+2021-07-22T02:16:58+00:00 CRITICAL Uncaught Error: Call to a member function get_meta() on bool in C:\xampp\htdocs\zebrasolutions\wp-content\plugins\dokan-lite\includes\Order\Manager.php:380
+Stack trace:
+#0 C:\xampp\htdocs\zebrasolutions\wp-content\plugins\dokan-lite\includes\Order\Hooks.php(265): WeDevs\Dokan\Order\Manager->maybe_split_orders(0)
+#1 C:\xampp\htdocs\zebrasolutions\wp-includes\class-wp-hook.php(294): WeDevs\Dokan\Order\Hooks->split_vendor_orders(0)
+#2 C:\xampp\htdocs\zebrasolutions\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#3 C:\xampp\htdocs\zebrasolutions\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#4 C:\xampp\htdocs\zebrasolutions\wp-content\plugins\woocommerce\includes\class-wc-checkout.php(396): do_action('woocommerce_che...', 0, Array)
+#5 C:\xampp\htdocs\zebrasolutions\wp-content\plugins\woocommerce\includes\class-wc-checkout.php(1163): WC_Checkout->create_order(Array)
+#6 C:\xampp\htdocs\zebrasolutions\wp-content\plugins\woocommerce\includes\class-wc-ajax.php(466): WC_Checkout->process en C:\xampp\htdocs\zebrasolutions\wp-content\plugins\dokan-lite\includes\Order\Manager.php en la línea 380
+
+2021-07-22T02:17:32+00:00 CRITICAL Uncaught Error: Call to a member function get_meta() on bool in C:\xampp\htdocs\zebrasolutions\wp-content\plugins\dokan-lite\includes\Order\Manager.php:380
+Stack trace:
+#0 C:\xampp\htdocs\zebrasolutions\wp-content\plugins\dokan-lite\includes\Order\Hooks.php(265): WeDevs\Dokan\Order\Manager->maybe_split_orders(0)
+#1 C:\xampp\htdocs\zebrasolutions\wp-includes\class-wp-hook.php(294): WeDevs\Dokan\Order\Hooks->split_vendor_orders(0)
+#2 C:\xampp\htdocs\zebrasolutions\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#3 C:\xampp\htdocs\zebrasolutions\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#4 C:\xampp\htdocs\zebrasolutions\wp-content\plugins\woocommerce\includes\class-wc-checkout.php(396): do_action('woocommerce_che...', 0, Array)
+#5 C:\xampp\htdocs\zebrasolutions\wp-content\plugins\woocommerce\includes\class-wc-checkout.php(1163): WC_Checkout->create_order(Array)
+#6 C:\xampp\htdocs\zebrasolutions\wp-content\plugins\woocommerce\includes\class-wc-ajax.php(466): WC_Checkout->process en C:\xampp\htdocs\zebrasolutions\wp-content\plugins\dokan-lite\includes\Order\Manager.php en la línea 380
+
+2021-07-22T02:23:51+00:00 CRITICAL Uncaught RuntimeException: No ha sido posible la petición de acciones. Error en la base de datos. in C:\xampp\htdocs\zebrasolutions\wp-content\plugins\woocommerce\packages\action-scheduler\classes\data-stores\ActionScheduler_DBStore.php:675
+Stack trace:
+#0 C:\xampp\htdocs\zebrasolutions\wp-content\plugins\woocommerce\packages\action-scheduler\classes\data-stores\ActionScheduler_DBStore.php(599): ActionScheduler_DBStore->claim_actions(0, 25, NULL, Array, '')
+#1 C:\xampp\htdocs\zebrasolutions\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(153): ActionScheduler_DBStore->stake_claim(25)
+#2 C:\xampp\htdocs\zebrasolutions\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch(25, 'WP Cron')
+#3 C:\xampp\htdocs\zebrasolutions\wp-includes\class-wp-hook.php(292): ActionScheduler_QueueRunner->run('WP Cron')
+#4 C:\xampp\htdocs\zebrasolutions\wp-includes\class-wp-hook.php(316): WP_Hook-> en C:\xampp\htdocs\zebrasolutions\wp-content\plugins\woocommerce\packages\action-scheduler\classes\data-stores\ActionScheduler_DBStore.php en la línea 675
+
+2021-07-22T02:35:41+00:00 CRITICAL Maximum execution time of 300 seconds exceeded en C:\xampp\htdocs\zebrasolutions\wp-admin\includes\class-wp-filesystem-direct.php en la línea 66
+
+2021-07-22T03:10:16+00:00 CRITICAL Maximum execution time of 180 seconds exceeded en C:\xampp\htdocs\zebrasolutions\wp-content\plugins\dokan-lite\includes\Widgets\StoreContactForm.php en la línea 14
+
+2021-07-22T21:21:14+00:00 CRITICAL Maximum execution time of 180 seconds exceeded en C:\xampp\htdocs\zebrasolutions\wp-admin\includes\class-wp-filesystem-direct.php en la línea 66
+

@@ -1,0 +1,44 @@
+2021-07-21T22:40:37+00:00 CRITICAL Maximum execution time of 60 seconds exceeded en C:\xampp\htdocs\zebrasolutions\wp-includes\l10n.php en la línea 1169
+
+2021-07-21T22:47:23+00:00 CRITICAL Maximum execution time of 60 seconds exceeded en C:\xampp\htdocs\zebrasolutions\wp-includes\pomo\streams.php en la línea 173
+
+2021-07-21T23:00:54+00:00 CRITICAL Uncaught Exception: Almacenamiento de datos no válido. in C:\xampp\htdocs\zebrasolutions\wp-content\plugins\woocommerce\includes\data-stores\class-wc-shipping-zone-data-store.php:101
+Stack trace:
+#0 C:\xampp\htdocs\zebrasolutions\wp-content\plugins\woocommerce\includes\class-wc-data-store.php(159): WC_Shipping_Zone_Data_Store->read(Object(WC_Shipping_Zone))
+#1 C:\xampp\htdocs\zebrasolutions\wp-content\plugins\woocommerce\includes\class-wc-shipping-zone.php(62): WC_Data_Store->read(Object(WC_Shipping_Zone))
+#2 C:\xampp\htdocs\zebrasolutions\wp-content\plugins\woocommerce\includes\class-wc-shipping-zones.php(115): WC_Shipping_Zone->__construct(3)
+#3 C:\xampp\htdocs\zebrasolutions\wp-content\plugins\woocommerce\includes\class-wc-ajax.php(2773): WC_Shipping_Zones::delete_zone(3)
+#4 C:\xampp\htdocs\zebrasolutions\wp-includes\class-wp-hook.php(292): WC_AJAX::shipping_zones_save_changes('')
+#5 C:\xampp\htdocs\zebrasolutions\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#6 C:\xampp\htdocs\zeb en C:\xampp\htdocs\zebrasolutions\wp-content\plugins\woocommerce\includes\data-stores\class-wc-shipping-zone-data-store.php en la línea 101
+
+2021-07-21T23:08:28+00:00 CRITICAL Maximum execution time of 60 seconds exceeded en C:\xampp\htdocs\zebrasolutions\wp-includes\plugin.php en la línea 202
+
+2021-07-21T23:08:30+00:00 CRITICAL Maximum execution time of 60 seconds exceeded en C:\xampp\htdocs\zebrasolutions\wp-includes\wp-db.php en la línea 2056
+
+2021-07-21T23:08:30+00:00 CRITICAL Maximum execution time of 60 seconds exceeded en C:\xampp\htdocs\zebrasolutions\wp-includes\rest-api\class-wp-rest-server.php en la línea 869
+
+2021-07-21T23:25:27+00:00 CRITICAL Uncaught Error: Call to a member function get_meta() on bool in C:\xampp\htdocs\zebrasolutions\wp-content\plugins\dokan-lite\includes\Order\Manager.php:380
+Stack trace:
+#0 C:\xampp\htdocs\zebrasolutions\wp-content\plugins\dokan-lite\includes\Order\Hooks.php(265): WeDevs\Dokan\Order\Manager->maybe_split_orders(0)
+#1 C:\xampp\htdocs\zebrasolutions\wp-includes\class-wp-hook.php(294): WeDevs\Dokan\Order\Hooks->split_vendor_orders(0)
+#2 C:\xampp\htdocs\zebrasolutions\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#3 C:\xampp\htdocs\zebrasolutions\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#4 C:\xampp\htdocs\zebrasolutions\wp-content\plugins\woocommerce\includes\class-wc-checkout.php(396): do_action('woocommerce_che...', 0, Array)
+#5 C:\xampp\htdocs\zebrasolutions\wp-content\plugins\woocommerce\includes\class-wc-checkout.php(1163): WC_Checkout->create_order(Array)
+#6 C:\xampp\htdocs\zebrasolutions\wp-content\plugins\woocommerce\includes\class-wc-ajax.php(466): WC_Checkout->process en C:\xampp\htdocs\zebrasolutions\wp-content\plugins\dokan-lite\includes\Order\Manager.php en la línea 380
+
+2021-07-21T23:26:50+00:00 CRITICAL Uncaught Error: Call to a member function get_meta() on bool in C:\xampp\htdocs\zebrasolutions\wp-content\plugins\dokan-lite\includes\Order\Manager.php:380
+Stack trace:
+#0 C:\xampp\htdocs\zebrasolutions\wp-content\plugins\dokan-lite\includes\Order\Hooks.php(265): WeDevs\Dokan\Order\Manager->maybe_split_orders(0)
+#1 C:\xampp\htdocs\zebrasolutions\wp-includes\class-wp-hook.php(294): WeDevs\Dokan\Order\Hooks->split_vendor_orders(0)
+#2 C:\xampp\htdocs\zebrasolutions\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#3 C:\xampp\htdocs\zebrasolutions\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#4 C:\xampp\htdocs\zebrasolutions\wp-content\plugins\woocommerce\includes\class-wc-checkout.php(396): do_action('woocommerce_che...', 0, Array)
+#5 C:\xampp\htdocs\zebrasolutions\wp-content\plugins\woocommerce\includes\class-wc-checkout.php(1163): WC_Checkout->create_order(Array)
+#6 C:\xampp\htdocs\zebrasolutions\wp-content\plugins\woocommerce\includes\class-wc-ajax.php(466): WC_Checkout->process en C:\xampp\htdocs\zebrasolutions\wp-content\plugins\dokan-lite\includes\Order\Manager.php en la línea 380
+
+2021-07-21T23:29:17+00:00 CRITICAL Maximum execution time of 60 seconds exceeded en C:\xampp\htdocs\zebrasolutions\wp-content\plugins\dokan-lite\includes\Dashboard\Templates\Main.php en la línea 5
+
+2021-07-21T23:39:14+00:00 CRITICAL Maximum execution time of 300 seconds exceeded en C:\xampp\htdocs\zebrasolutions\wp-admin\includes\class-wp-filesystem-direct.php en la línea 545
+

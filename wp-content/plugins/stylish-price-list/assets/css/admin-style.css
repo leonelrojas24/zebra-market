@@ -1,0 +1,104 @@
+.df-spl-edit-nav {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 0px 9px 10px rgb(189 189 189 / 05%);
+    margin-top:20px;
+    margin-right:20px;
+}
+.nav>li>a {
+    position: relative;
+    display: block;
+    padding: 10px 15px;
+}
+.nav>li {
+    margin-bottom: 0;
+}
+@media (min-width: 768px) {
+    .price_wrapper .navbar-nav>li>a {
+        padding-top: 28px;
+        padding-bottom: 28px;
+    }
+    .price_wrapper .navbar-nav>li>.main-save.spl_btn_primary>p.submit {
+        padding-top: 28px;
+        padding-bottom: 28px;
+    }
+}
+@media (max-width: 1161px) {
+    .price_wrapper .navbar-secondary .navbar-nav>li>a, .price_wrapper .navbar-secondary .navbar-nav>li>a:focus, .price_wrapper .navbar-secondary .navbar-nav>li>a:hover{
+        font-size: 10px;
+    }
+}
+.price_wrapper .edit-page-nav>li>a {
+    font-weight: bold;
+    text-decoration: auto;
+}
+.df-spl-nav-menu-buttons{
+    font-size:16px;
+    font-weight: bold;
+}
+.df-spl-edit-nav.nav-secondary a {
+    font-weight: bold;
+    cursor: pointer;
+    color: #777;
+}
+.edit-page-nav.navbar-right {
+    cursor: pointer;
+}
+.df-spl-edit-nav.nav-secondary a:hover {
+    color: #333;
+}
+.spl_btn_primary.main-save p.submit {
+    margin: 0;
+    padding: 0;
+}
+div#style5_category_container {
+    padding: 0;
+}
+.select-right-icon {
+    pointer-events: none;
+    position: absolute;
+    top: 5px;
+    bottom: 0;
+    left: auto;
+    right: 0;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-align-items: center;
+    align-items: center;
+}
+nav.navbar.navbar-secondary.df-spl-edit-nav {
+    margin-right: 5px;
+}
+.price_wrapper .navbar-secondary .navbar-nav>li>a {
+    color: #777;
+    line-height: 40px;
+}
+.price_wrapper .navbar-secondary .navbar-nav>li>a:focus, .price_wrapper .navbar-secondary .navbar-nav>li>a:hover {
+    color: #333;
+    background-color: transparent;
+}
+div#preview_content {
+    max-width: 900px;
+    background: #fff;
+    padding: 20px;
+    margin-top: 10px;
+}
+p.submit input.button{
+    padding-right:30px;
+    padding-left:30px;
+}
+p.free_version {
+    font-size: 16px;
+    background: #e2f1e7;
+    padding: 20px;
+    border-radius: 20px;
+    margin-left: -15px;
+    box-shadow: 0px 0px 9px 10px rgb(189 189 189 / 5%);
+}
+.free_version a{
+    color:orange;
+}
+div#sortable {
+    border: none;
+    background: none;
+}
